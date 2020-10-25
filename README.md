@@ -1,8 +1,6 @@
 
 # ContolIt
 
-# ControlIt
-
 ControlIT is a NodeJs library for dealing with Telco as a Ground Station.
 
 ## Installation
