@@ -1,7 +1,9 @@
 const express = require('express');
+const config = require('config');
+
 const app = express();
 
-var port = 3000;
+var port = config.get('Application.Configs.port');;
 
 app.get('/', function (req, res) {
 
